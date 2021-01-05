@@ -1,14 +1,24 @@
 <template>
-  <layout />
+  <layout>
+    <add-meal-form />
+    <planner />
+    <members />
+  </layout>
 </template>
 
 <script>
 import Layout from "./components/Layout.vue";
+import AddMealForm from "./components/AddMealForm.vue";
+import Members from "./components/Members.vue";
+import Planner from "./components/Planner.vue";
 
 export default {
   name: "App",
   components: {
     Layout,
+    AddMealForm,
+    Planner,
+    Members,
   },
 };
 </script>
